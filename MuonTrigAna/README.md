@@ -1,10 +1,12 @@
-- login to lxplus
+## Instructions
 
-- download code from gitHub:
+##### login to lxplus
 
-- setup standard ATLAS sofwtare release:
+##### download code from gitHub:
 
-{noformat}
+##### setup standard ATLAS sofwtare release:
+
+```
 cd MuonTrigAna
 mkdir build
 mkdir run
@@ -13,29 +15,29 @@ asetup 21.2.38,AnalysisBase,here
 cmake ../source/
 make
 source x86_64-*/setup.sh
-{noformat}
+```
 
-- NOTE: after first build, next times only needs:
+###### NOTE: after first build, next times only needs:
 
-{noformat}
+```
 cd build/
 setup --restore
-{noformat}
+```
 
-- run the code: 
+##### run the code: 
 
--- with root:
+###### with root:
 
-{noformat}
+```
 cd run/
 rm -rf pippo
 root -b -q '$ROOTCOREDIR/scripts/load_packages.C' '../source/TARun.cxx("pippo")'
-{noformat}
+```
 
--- with python: 
+###### with python: 
 
-{noformat}
+```
 cd run/
 rm -rf pippo
 ../source/TARun.py --submission-dir='pippo'
-{noformat}
+```
