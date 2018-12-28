@@ -2,7 +2,11 @@
 
 ##### login to lxplus
 
-##### download code from gitHub:
+##### download code from gitHub: 
+
+```
+https://github.com/stefanogiagu/MuonTrigAna.git
+```
 
 ##### setup standard ATLAS sofwtare release:
 
