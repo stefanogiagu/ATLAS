@@ -1,4 +1,2 @@
-# ATLAS
-ATLAS Experiment related code
-
-* MuonTrigAna: validation code for HLT Muon triggers
+# MuonTrigAna
+ATLAS Experiment validation code for HLT Muon triggers
